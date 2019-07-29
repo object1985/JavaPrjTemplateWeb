@@ -17,11 +17,12 @@ mavenプロジェクトになっています。
 pom.xmlのあるプロジェクトルートでビルドします。
 
 ```sh
-JavaPrjTemplateWeb[1-readme]$ java  --version
-Unrecognized option: --version
-Error: Could not create the Java Virtual Machine.
-Error: A fatal exception has occurred. Program will exit.
+JavaPrjTemplateWeb[1-readme]$ java -version
+java version "1.8.0_192"
+Java(TM) SE Runtime Environment (build 1.8.0_192-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.192-b12, mixed mode)
 JavaPrjTemplateWeb[1-readme]$ 
+
 JavaPrjTemplateWeb[1-readme]$ mvn -version
 Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-25T03:41:47+09:00)
 Maven home: /usr/local/Cellar/maven/3.6.0/libexec
