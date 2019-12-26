@@ -7,7 +7,7 @@
 	<packaging>war</packaging>
 
 	<properties>
-		<jdk.version>1.8</jdk.version>
+		<jdk.version>11</jdk.version>
 		<jacoco.include.package>jp.co.tonaise</jacoco.include.package>
 		<version.checkstyle>3.1.0</version.checkstyle>
 		<version.surefire>2.22.2</version.surefire>
